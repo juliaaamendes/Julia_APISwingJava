@@ -3,6 +3,7 @@ import java.awt.*;
 
 public class CadastroUsuario extends JFrame {
 
+    // Classe para criar uma janela de cadastro de usuário
     public CadastroUsuario() {
         setTitle("Cadastro de Usuário");
         setSize(400, 300);
@@ -22,7 +23,6 @@ public class CadastroUsuario extends JFrame {
         JTextField idadeField = new JTextField();
 
         JButton cadastrarButton = new JButton("Cadastrar");
-        
 
         panel.add(nomeLabel);
         panel.add(nomeField);
